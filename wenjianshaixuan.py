@@ -93,7 +93,7 @@ def analyze_words_in_abstract(abstract, words_to_find):
     
     return results
 
-st.title("PubMed Abstract Analyzer")
+st.title("PubMed Abstract Analyzer - 小钟钟制作")
 
 pubmed_ids_input = st.text_area("Enter PubMed IDs (one per line):")
 words_input = st.text_input("Enter words to search for (comma-separated):")
